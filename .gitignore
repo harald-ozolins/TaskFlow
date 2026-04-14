@@ -1,0 +1,81 @@
+# Arquivos que você já tinha (mantidos e organizados)
+*.iml
+.gradle
+/local.properties
+.idea/caches
+.idea/libraries
+.idea/modules.xml
+.idea/workspace.xml
+.idea/navEditor.xml
+.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# ==================== Melhorias e complementos recomendados ====================
+
+# Pastas completas do Android Studio / IntelliJ (mais seguro ignorar tudo)
+.idea/
+
+# Gradle e Kotlin
+.kotlin/
+.gradle/
+build/
+
+# Arquivos de build Android
+*.apk
+*.ap_
+*.aab
+*.dex
+*.class
+
+# Outputs do Android
+bin/
+gen/
+out/
+output.json
+
+# Arquivos sensíveis (muito importante!)
+google-services.json
+google-services-desktop.json
+firebase.json
+*.keystore
+*.jks
+*.p12
+keystore.properties
+signing.properties
+
+# Pastas do NDK / CMake (se você usar código nativo)
+obj/
+.externalNativeBuild/
+.cxx/
+
+# Arquivos de log e temporários
+*.log
+*.swp
+*.swo
+Thumbs.db
+
+# Pastas do Gradle Wrapper (se preferir não versionar o wrapper)
+# gradle/wrapper/gradle-wrapper.jar   # descomente só se quiser ignorar
+
+# Cache do Gradle em outras localizações
+.gradle/caches/
+.gradle/wrapper/
+
+# Arquivos específicos do Compose e previews (às vezes geram lixo)
+compose-reports/
+*.compose
+
+# Outros comuns em projetos modernos
+captures/
+.navigation/
+*.hprof
+*.jprof
+
+# Ignorar pastas de teste grandes (se aplicável)
+test-results/
+androidTest-results/
